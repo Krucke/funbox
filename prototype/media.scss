@@ -1,0 +1,33 @@
+@media screen and (max-width:1240px){
+  .page-container{
+    height: 100%;
+  }
+  .container{
+    width: 100%;
+    max-width: 800px;
+  }
+  .card-grid{
+    justify-content: center;
+    .card:first-child{
+      margin-right: 80px;
+    }
+  }
+}
+@media screen and (max-width:760px){
+  .page-container{
+    height: 100%;
+  }
+  .container{
+    width: 100%;
+    max-width: 450px;
+  }
+  .card-grid{
+    flex-direction: row;
+    .card:first-child{
+      margin-right: 0;
+    }
+    .card{
+      margin-bottom: 20px;
+    }
+  }
+}

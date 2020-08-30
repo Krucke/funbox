@@ -1,0 +1,32 @@
+$blueBorder: #1698d9;
+$blueBorderHover: #2ea8e6;
+$selected: #d91667;
+$selectedHover: #e62e7a;
+$disabled: #b3b3b3;
+.text-white{
+  color: white;
+}
+.text-yellow{
+  color: #f4f461;
+}
+.text-selected{
+  color: #e62e7a !important;
+}
+.text-disabled{
+  color: #d4d4d4;
+}
+.link{
+  color: $blueBorder;
+  text-decoration: none;
+  border-bottom: 1px dashed $blueBorder;
+}
+.text-grey{
+  color: #666666;
+}
+.align-center{
+  text-align: center;
+}
+.m-35{
+  margin: 35px;
+  font-size: 36px;
+}
